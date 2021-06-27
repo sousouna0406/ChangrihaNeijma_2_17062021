@@ -1,3 +1,26 @@
+body{
+    margin: auto;
+    width: 95%;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo{
-    width: 2em;
+    width: 4.5em;
+}
+nav, li{
+    list-style-type: none;
+    display: inline;  
+    justify-content: space-between; 
+    padding: 20px; 
+}
+.texte, h1{
+    font-size: 0.9em;
+}
+
+.texte, p{
+    font-size: 0.8em;
+
 }
