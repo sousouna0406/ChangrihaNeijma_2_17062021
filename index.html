@@ -1,80 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <link href="style.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservia</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservia</title>
 </head>
-  <body>  
-     <header class="entete">
-        <img class="logo"
-         src="assets/IMAGES/logo/Reservia@3x.png" alt="logo" title="Logo Reservia"/>
-          <nav class="menu haut">
-            <ul>
-               <li><a href="nav1">Hébergements</a></li>
-               <li><a href="nav2">Activités</a></li>
-               <li><a class="inscription" href="nav3">S'inscrire</a></li>
-            </ul>
-          </nav>
-      </header>
-      <section> 
-        <div class="texte"><h1>Trouver votre Hébergement pour des vacances de rêve</h1>
-          <p>En plein centre ville ou pleine nature</p> 
-        </div>
-        <div class="barre"> 
-            <div class="localisation"></div>
-            <div class="marseille">Marseille, France </div>
-            <div class="bottom">Rechercher</div> 
-        </div> 
-     </section> 
-     <section>
-          <article>
-            <h1><H1>Hébergements à Marseille</H1></h1>
-            <div>
-              <img src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
-              <h1>Auberge la Cannebière</h1>
-              <p>Nuit à partir de 25€</p>
-            </div>
-            <div>
-              <img src="assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
-              <h1>Hôtel du port</h1>
-              <p>Nuit à partir de 52€</p>
-            </div>
-            <div>
-              <img src="assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
-              <h1>Hôtel Les mouettes</h1>
-              <p>Nuit à partir de 76€</p>
-            </div>
-            <div>
-              <img src="assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
-              <h1>Hôtel de la mer</h1>
-              <p>Nuit à partir de 46€</p>
-            </div>
-            <div>
-              <img src="assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
-              <h1>Auberge le Panier</h1>
-              <p>Nuit à partir de 23€</p>
-            </div>
-            <div>
-              <img src="assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
-              <h1>Hôtel chez Amina</h1>
-              <p>Nuit à partir de 96€</p>
-            </div>
 
-          </article>
-          <aside>
+<body>
+  <!--
+  <header class="entete">
+    <img class="logo" src="assets/IMAGES/logo/Reservia@3x.png" alt="logo" title="Logo Reservia" />
+    <nav class="menu haut">
+      <ul>
+        <li><a href="#hebergement">Hébergements</a></li>
+        <li><a href="#activités">Activités</a></li>
+      </ul>
+      <a class="inscription" href="#">S'inscrire</a>
+    </nav>
+  </header>
+  <section>
+    <div class="texte">
+      <h1>Trouver votre Hébergement pour des vacances de rêve</h1>
+      <p>En plein centre ville ou pleine nature</p>
+    </div>
+    <div class="barre">
+      <div class="localisation"></div>
+      <div class="marseille">Marseille, France </div>
+      <div class="bottom">Rechercher</div>
+    </div>
+  </section>
+  <section id="hebergements">
+    <article>
+      <h1>
+        <H1>Hébergements à Marseille</H1>
+      </h1>
+      <div>
+        <img src="assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
+        <strong>Auberge la Cannebière</strong>
+        <p>Nuit à partir de 25€</p>
+      </div>
+      <div>
+        <img src="assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+        <strong>Hôtel du port</strong>
+        <p>Nuit à partir de 52€</p>
+      </div>
+      <div>
+        <img src="assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
+        <strong>Hôtel Les mouettes</strong>
+        <p>Nuit à partir de 76€</p>
+      </div>
+      <div>
+        <img src="assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+        <strong>Hôtel de la mer</strong>
+        <p>Nuit à partir de 46€</p>
+      </div>
+      <div>
+        <img src="assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
+        <strong>Auberge le Panier</strong>
+        <p>Nuit à partir de 23€</p>
+      </div>
+      <div>
+        <img src="assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+        <strong>Hôtel chez Amina</strong>
+        <p>Nuit à partir de 96€</p>
+      </div>
+    </article>
+    <aside>
 
-          </aside>
-     </section>
-     <section>
 
-     </section>
+    </aside>
+  </section id="activités">
+  <section>
 
-     <footer>
+  </section>
+-->
+  <footer>
+    <div class="footer-block">
+      <h3>A propos</h3>
+      <ul>
+        <li><a href="#">Fonctionnement du site</a></li>
+        <li><a href="#">Conditions générales de vente</a></li>
+        <li><a href="#">Données et confidentalité</a></li>
+      </ul>
+    </div>
+    <div class="footer-block">
+      <h3>Nos hébergements</h3>
+      <ul>
+        <li><a href="#">Charte qualité</a></li>
+        <li><a href="#">Soumettre votre hôtel</a></li>
+      </ul>
+    </div>
+    <div class="footer-block">
+      <h3>Assistance</h3>
+      <ul>
+        <li><a href="#">Centre d'aide</a></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
+    </div>
+  </footer>
 
-     </footer>
+</body>
 
-  </body>
 </html>
