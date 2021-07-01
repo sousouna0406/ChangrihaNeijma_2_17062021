@@ -124,12 +124,13 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 35px;
+    
 }
 .activitésblock h2{
     display: flex;
     flex-direction: row;
     font-size: 15px;
-    padding-left: 19px;
+    
 }
 .grande1 img{
     display: flex;
@@ -137,7 +138,7 @@ a:hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
      height: 300px;
-    width: 250px;
+    width: 230px;
 }
 .grande1{
     display: flex;
@@ -145,60 +146,59 @@ a:hover{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 2px 8px 5px #F2F2F2 ;
+    object-fit: cover;
 }  
 .petite1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.petite1 img{
-    width: 200px;
-    height: 120px;
-}
+
 .grande2{
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 3px 6px 2px #F2F2F2 ;
+    
 }
 .grande2 img{
     height: 300px;
-    width: 250px;
+    width: 230px;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
+    object-fit: cover;
 }
 .petite2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
-}
-.petite2 img{
-    width: 200px;
-    height: 120px;
-    justify-content: space-between;
-    
 }
 .section-block p{
     font-size: 12px;
     font-weight: bold;
-    padding-left: 6px;  
+    padding-left: 7px;
 }
 
  .block1 img{
+    width: 230px;
+    height: 120px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 .block1 p{
-    
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 3px 6px 2px #F2F2F2 ;
 }
 .block2 img{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+   
 }
 .block2 p{
     border-bottom-left-radius: 15px;
