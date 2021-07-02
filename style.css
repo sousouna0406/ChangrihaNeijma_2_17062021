@@ -90,12 +90,14 @@ section{
     border:1px solid grey ;
 }
 */
+
 /* Footer*/
+
 footer{
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;  
-     padding: 15px;
+    padding: 15px;
 }
 .footer-block h3{
     padding-left: 45px;
@@ -105,7 +107,7 @@ footer{
     list-style-type: none;  
 }
 .footer-block a{
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
     color: black;   
 }
@@ -114,13 +116,14 @@ footer{
     padding: 4px;
 }
 .footer-block{
-
     flex: 1;
 }
 a:hover{
     color: #0065FC;
-}  
-/* Section Activités*/                                                   
+} 
+
+/* Section Activités*/   
+
 .section-block{
     display: flex;
     flex-direction: row;
@@ -141,7 +144,7 @@ a:hover{
     flex-direction: column;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-     height: 300px;
+    height: 300px;
     width: 230px;
 }
 .grande1{
@@ -215,7 +218,7 @@ a:hover{
 }
 .block3 img{
     width: 220px;
-    height: 100px;
+    height: 110px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
