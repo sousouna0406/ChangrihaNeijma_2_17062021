@@ -187,6 +187,10 @@ a:hover{
     font-weight: bold;
     padding-left: 7px;
 }
+.section-block a{
+    text-decoration: none;
+    color: black;
+}
 
  .block1 img{
     width: 220px;
