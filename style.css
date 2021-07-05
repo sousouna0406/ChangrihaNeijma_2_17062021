@@ -194,7 +194,7 @@ a:hover{
     border-bottom-right-radius: 15px;
     box-shadow: 1px 2px 6px rgba(170, 169, 169, 0.12), 0 3px 3px rgba(139, 138, 138, 0.24);
     object-fit: cover;
-    transition: 900ms;
+    transition: 500ms;
 }
 .activite-moyenne{
     display: flex;
@@ -204,7 +204,7 @@ a:hover{
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    transition: 900ms;
+    transition: 500ms;
 }
 .activite-petite{
     display: flex;
@@ -214,19 +214,22 @@ a:hover{
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    transition: 900ms;
+    transition: 500ms;
 }
 .speciale-div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content: space-between;
+      
 }
 
 .activite-grande:hover{
     filter: brightness(1.30);
-    z-index:1;
+    z-index: 2;
     box-shadow: 1px 1px 8px #0065FC;
     transform: scale(1.05);
+
+
 }
 .activite-moyenne:hover{
     filter: brightness(1.30);
@@ -299,12 +302,12 @@ a:hover{
     margin: 10px;
  }
  .carte-hebergement strong{
-     font-size: 14px;
+     font-size: 13px;
      
  }
  .carte-hebergement p{
      padding-left: 6px;
-     font-size: 11px;
+     font-size: 12px;
  }
  .carte-hebergement img{
      width: 180px;
@@ -319,7 +322,7 @@ a:hover{
     padding-left: 6px;
      display: flex;
      flex-direction: row;
-     font-size: 12px;
+     font-size: 10px;
  }
  main a{
     text-decoration: none;
@@ -328,6 +331,7 @@ a:hover{
 
  }
  .afficher-plus a{
+     font-size: 14px;
      color: black;
      font-weight: bold;
      display: flex;
@@ -374,7 +378,7 @@ a:hover{
     border-bottom-right-radius: 15px;
      border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
-    width: 240px; 
+    
 }
 .carte-populaire img{
     width: 90px;
@@ -391,7 +395,7 @@ a:hover{
     display: flex;
     flex-direction: column;     
     justify-content: center;
-    padding-left: 10px;
+    
 }
 .all{
     display: flex;
