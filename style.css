@@ -5,92 +5,6 @@ body {
   margin: auto;
   max-width: 1024px;
 }
-/*
-.entete{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    
-}
-.logo{
-    width: 6em;
-}
-nav{
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-nav a:hover{
-    color:#0065FC;
-    border-top: 3px solid ;
-    padding-top: 28px;
-}   
-a{
-  text-decoration: none;
-  font-size: 1.1em;
-  color: #615D59;
-}
- li{
-    list-style-type: none;
-    display: inline; 
-    justify-content: space-between; 
-    padding: 35px; 
-}
-
-.texte, h1{
-    font-size: 1.4em;
-    padding-top: 10px;
-}
-.texte, p{
-    font-size: 1em;
-    
-}
-.inscription{
-    position: relative;
-    font-weight: bold;
-    color:#0065FC; 
-    padding-left: 45px;  
-}
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.barre{
-    display: flex;
-   align-items: center;
-}
-.bottom{
-    width: 120px;
-    height: 50px;  
-    background-color: #0065FC;
-    color: white;
-    font-weight: lighter;
-    font-size: 1.3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 12px;
-}
-.marseille{
-    width: 200px;
-    height: 48px;  
-    border: #e6dfdf solid transparent;
-    background-color:white;
-    color:black ;
-    font-weight: bold;
-    font-size: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:1px solid grey ;
-}
-*/
-
 /* Footer*/
 
 footer {
@@ -437,4 +351,155 @@ span{
   z-index: 1;
   box-shadow: 1px 1px 8px #0065fc;
   transform: scale(1.05);
+}
+/* HEADER */
+.entete{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 15px;
+}
+.logo{
+  display: flex;
+  width: 90px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+.menu ul{
+   display: flex;
+   flex-direction: row;   
+}
+.menu li{
+  display: flex;  
+}
+.menu .inscription{
+  color: #0065FC;
+  font-weight: bold;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #615D59;
+  padding-left: 40px;
+  margin: 15px;
+}
+.txt-top{
+  margin-left: 15px;
+}
+.txt-top h1{
+  margin: 0%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.txt-top p{
+  margin-top: 6px;
+  font-size: 14px;
+}
+.barre-de-recherche{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+.icone i{
+     display: flex;
+     font-size: 18px;
+     
+}
+.icone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background: #f2f2f2;
+     width: 50px;
+     height: 45px;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+.recherche{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15px;
+  width:  180px;
+  height: 43px;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.bouton-recherche{
+  background-color: #0065FC;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 17px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+
+}
+.filtre{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.border i{
+  color: #0065FC;
+  background: #DEEBFF;
+  height: 45px;
+  width: 45px;
+  border-radius: 45px / 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border{
+  margin-right:10px ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #a09f9f5b;
+  height: 42px;
+  border-radius: 45px / 45px;
+  border-left:transparent;
+}
+.border p{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  font-weight: bold;
+}
+.filtre strong{
+  padding-right: 5px;
+  margin: 17px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+padding-left: 15px;
+}
+.info i{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #0065fc;
+  border: 1px solid #c5c5c5;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px / 20px;
+}
+.info p{
+  padding: 13px;
+}
+
+ul .inscription:hover{
+  color: #0065fc;
+  text-shadow: 1px 1px 15px #0065fc;
+
 }
