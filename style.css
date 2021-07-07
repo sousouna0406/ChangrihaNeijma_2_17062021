@@ -264,8 +264,9 @@ span{
 }
 .carte-hebergement:hover {
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065fc;
+  box-shadow: 1px 1px 8px #0065FC;
   transform: scale(1.05);
+  
 }
 
 /* Populaire*/
@@ -278,7 +279,7 @@ span{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 14px;
-  padding: 14px;
+  padding: 13px;
 }
 .populaire-block {
   display: flex;
@@ -349,39 +350,57 @@ span{
 }
 .carte-populaire:hover {
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065fc;
+  box-shadow: 1px 1px 8px #0065FC;
   transform: scale(1.05);
+  
 }
 /* HEADER */
 .entete{
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-end;
-  margin: 15px;
+
 }
 .logo{
   display: flex;
   width: 90px;
   height: 40px;
-  margin-bottom: 7px;
+  margin-left: 15px;
 }
-.menu ul{
-   display: flex;
-   flex-direction: row;   
+nav ul{
+  display: flex;
+  margin: 0%;
 }
 .menu li{
-  display: flex;  
+ display: flex;  
+ list-style-type: none;
+
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
 }
 .menu .inscription{
   color: #0065FC;
   font-weight: bold;
-}
-.menu a{
   text-decoration: none;
   font-size: 14px;
+  padding-left:30px;
+  position:sticky;
+  padding-right: 20px;
+}
+nav a{
+  list-style: none;
+  justify-content:center;
+  display: inline-block;
+  font-size: 14px;
   color: #615D59;
-  padding-left: 40px;
-  margin: 15px;
+  padding: 20px 30px;
+  text-decoration: none;
+
 }
 .txt-top{
   margin-left: 15px;
@@ -497,9 +516,15 @@ padding-left: 15px;
 .info p{
   padding: 13px;
 }
-
-ul .inscription:hover{
-  color: #0065fc;
-  text-shadow: 1px 1px 15px #0065fc;
+.inscription:hover {
+  text-shadow: 1px 1px 15px #0065fc; 
+}
+nav li:hover a{
+ padding: 15px 30px 20px 30px;
 
 }
+nav li:hover{
+   color: #0065fc; 
+   border-top: 2px solid #0065fc;
+}
+
