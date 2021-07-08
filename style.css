@@ -533,7 +533,7 @@ input[type="text"]:focus {
 }
 nav li .static-transparent:hover {
   color: #0065fc;
-  border-top: 2px solid #0065fc00;
+  border-top: 2px solid #0065fc;
 }
 .border:hover {
   transition: 600ms;
