@@ -529,7 +529,7 @@ input[type="text"]:focus {
 }
 
 nav li:hover a {
-  padding: 15px 30px 20px 30px;
+  
 }
 nav li .static-transparent:hover {
   color: #0065fc;
