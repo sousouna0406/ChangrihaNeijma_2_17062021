@@ -402,6 +402,7 @@ nav a {
   list-style: none;
   justify-content: center;
   display: flex;
+  align-items: center;
   font-size: 14px;
   color: #615d59;
   padding: 39px 30px;
