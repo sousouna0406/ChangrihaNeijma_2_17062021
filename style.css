@@ -140,19 +140,19 @@ a:hover {
 .activite-grande:hover {
   filter: brightness(1.3);
   z-index: 2;
-  box-shadow: 1px 1px 8px #0065fc;
+  box-shadow: 1px 1px 12px hsl(180, 20%, 58%);
   transform: scale(1.05);
 }
 .activite-moyenne:hover {
   filter: brightness(1.3);
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065fc;
+  box-shadow: 1px 1px 12px hsl(180, 20%, 58%);
   transform: scale(1.05);
 }
 .activite-petite:hover {
   filter: brightness(1.3);
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065fc;
+  box-shadow: 1px 1px 12px hsl(180, 20%, 58%);
   transform: scale(1.05);
 }
 
@@ -199,6 +199,7 @@ a:hover {
 span{
   font-weight: bolder;
 }
+
 /* hebergement */
 
 .hebergements {
@@ -264,9 +265,9 @@ span{
 }
 .carte-hebergement:hover {
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065FC;
+  box-shadow: 1px 1px 12px hsl(180, 20%, 58%);
   transform: scale(1.05);
-  
+  filter: brightness(1.2);
 }
 
 /* Populaire*/
@@ -344,15 +345,18 @@ span{
   align-items: center;
   justify-content: space-around;
 }
+.titre-populaire i{
+  font-size: 18px;
+}
 
 .carte-populaire a {
   color: black;
 }
 .carte-populaire:hover {
   z-index: 1;
-  box-shadow: 1px 1px 8px #0065FC;
+  box-shadow: 1px 1px 12px hsl(180, 20%, 58%);
   transform: scale(1.05);
-  
+  filter: brightness(1.2);
 }
 /* HEADER */
 .entete{
@@ -436,17 +440,23 @@ nav a{
      border-top-left-radius: 15px;
      border-bottom-left-radius: 15px;
 }
-.recherche{
+#search{
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 15px;
   width:  180px;
-  height: 43px;
+  height: 41px;
   border: 1px solid #f2f2f2;
-  cursor: pointer;
   font-weight: bold;
-
+}
+#search::placeholder{
+  color:black;
+  font-weight:bold ;
+  font-size: 15px;
+}
+input[type="text"]:focus {
+	outline:none;
 }
 .bouton-recherche{
   background-color: #0065FC;
@@ -496,6 +506,7 @@ nav a{
   margin: 17px;
 }
 .info{
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -515,9 +526,13 @@ padding-left: 15px;
 }
 .info p{
   padding: 13px;
+  font-size: 14px;
 }
 .inscription:hover {
   text-shadow: 1px 1px 15px #0065fc; 
+  transform: scale(1.3);
+  transition: 500ms;
+ 
 }
 nav li:hover a{
  padding: 15px 30px 20px 30px;
@@ -525,6 +540,17 @@ nav li:hover a{
 }
 nav li:hover{
    color: #0065fc; 
-   border-top: 2px solid #0065fc;
+   border-top: 2px solid #0065FC;
 }
-
+.border:hover{
+  transition: 600ms;
+  background-color:#DEEBFF;
+  color: #0065fc;
+  
+}
+.border i:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(6, 87, 238));
+  transition: 500ms;
+  background-color: #0065FC;
+ color: #DEEBFF;
+}
