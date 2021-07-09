@@ -565,30 +565,58 @@ nav li .static-transparent:hover {
     width: 100%;
   }
   .entete {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .menu{
-    flex-direction: column-reverse;
-  }
   .menu ul{
     padding: 0%;
-    align-items: flex-start;
+    flex-flow: column-reverse wrap;
+    width: 100%;
+
+  }
+ .static-transparent{
+  
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 15em;
+  }
+  .static{
+    
+    left: 100px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+  }
+  nav a{
+    padding: 0%;
   }
   section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px;
+   padding: 20px;
+   margin: 15px;
   }
   .barre-de-recherche{
     padding: 0%;
   }
   .txt-top{
     margin: 0%;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .txt-top p{
+    margin-top: 8px;
   }
   .info{
     padding: 0%;
+  }
+  .info p{
+    padding: 0%;
+    padding-left: 4px;
+    overflow: hidden;
+
   }
    input#bouton-recherche{
     display: none;
@@ -613,18 +641,20 @@ nav li .static-transparent:hover {
     font-size: 19px;
     
   }
-
-  .filtre  {
-    align-items: flex-start;
-    flex-direction: column;
+  .filtre {
+    align-items: flex-end;
     flex-wrap: wrap;
+    
+  }
+  .border{
+    margin:7px;
   }
 
   #hebergements-section {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    
+    padding: 0%;
   }
 
   .hebergements {
@@ -649,6 +679,7 @@ nav li .static-transparent:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0%;
   }
   .populaire .titre-populaire{
     justify-content: space-around;
@@ -667,6 +698,7 @@ nav li .static-transparent:hover {
     margin: 0%;
     align-items: center;
     justify-content: center;
+    padding: 0%;
   }
   #activites h2 {
     font-size: 18px;
