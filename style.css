@@ -400,6 +400,7 @@ nav li .static-transparent {
   position: sticky;
   padding-right: 20px;
   border-top: 2px solid #ffffff;
+   position: absolute;
 }
 nav a {
   list-style: none;
@@ -565,6 +566,14 @@ nav li .static-transparent:hover {
   }
   .entete {
     flex-direction: column;
+  }
+
+  .menu{
+    flex-direction: column-reverse;
+  }
+  .menu ul{
+    padding: 0%;
+    align-items: flex-start;
   }
   section {
     display: flex;
