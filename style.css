@@ -596,12 +596,16 @@ nav li .static-transparent:hover {
     border-bottom: 3px solid #0065fc;
     color: #0065fc;
   }
+  nav li .static-transparent:hover{
+    border-top:none ;
+  }
   nav li .static-transparent {
     padding: 0px;
     left: 0px;
     width: 100%;
     padding: 10px;
     border-bottom: 3px solid #f2f2f2;
+    border-top: none;
     
   }
   .menu li {
