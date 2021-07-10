@@ -559,6 +559,7 @@ nav li .static-transparent:hover {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 480px) {
   body {
     width: 100%;
@@ -566,7 +567,6 @@ nav li .static-transparent:hover {
   .entete {
     display: block;
     box-sizing: border-box;
-    
   }
   .logo {
     padding-top: 10px;
@@ -596,8 +596,8 @@ nav li .static-transparent:hover {
     border-bottom: 3px solid #0065fc;
     color: #0065fc;
   }
-  nav li .static-transparent:hover{
-    border-top:none ;
+  nav li .static-transparent:hover {
+    border-top: none;
   }
   nav li .static-transparent {
     padding: 0px;
@@ -606,12 +606,10 @@ nav li .static-transparent:hover {
     padding: 10px;
     border-bottom: 3px solid #f2f2f2;
     border-top: none;
-    
   }
   .menu li {
     display: flex;
     width: 100%;
-    
   }
   .inscription {
     display: flex;
@@ -632,7 +630,7 @@ nav li .static-transparent:hover {
   .barre-de-recherche {
     padding: 0%;
   }
-  #search{
+  #search {
     width: 100%;
   }
   .txt-top {
@@ -643,7 +641,7 @@ nav li .static-transparent:hover {
   .txt-top p {
     margin-top: 8px;
   }
-  .txt-top h1{
+  .txt-top h1 {
     margin-top: 0%;
   }
   .info {
@@ -657,9 +655,8 @@ nav li .static-transparent:hover {
   input#bouton-recherche {
     display: none;
   }
-  .loupe i::before{
+  .loupe i::before {
     font-size: 15px;
-   
   }
   .loupe {
     display: flex;
@@ -676,8 +673,6 @@ nav li .static-transparent:hover {
     border: unset;
     align-items: center;
     justify-content: center;
-    
-    
   }
 
   .filtre {
@@ -773,7 +768,7 @@ nav li .static-transparent:hover {
   }
   .activite-grande img {
     width: 100%;
-    height:8em;
+    height: 8em;
   }
   footer {
     flex-direction: column;
