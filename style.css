@@ -638,8 +638,6 @@ nav li .static-transparent:hover {
     display: none;
   }
   
-    
-  }
   .loupe {
     display: flex;
     background-color: #0065fc;
@@ -655,8 +653,8 @@ nav li .static-transparent:hover {
     border: unset;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 75%;
+    
+    
   }
   .loupe i {
     font-weight: bolder;
