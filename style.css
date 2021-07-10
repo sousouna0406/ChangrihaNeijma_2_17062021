@@ -566,11 +566,12 @@ nav li .static-transparent:hover {
   .entete {
     display: block;
     box-sizing: border-box;
-    margin-left: 15px;
+    
   }
   .logo {
     padding-top: 10px;
     margin: 0%;
+    padding-left: 16px;
   }
   nav {
     box-sizing: border-box;
@@ -585,28 +586,37 @@ nav li .static-transparent:hover {
     width: 100%;
     margin: 0%;
     padding: 0%;
+    padding-top: 10px;
   }
   nav li .static {
     border-top: none;
     left: 0px;
-    width: 50%;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px solid #0065fc;
+    color: #0065fc;
   }
   nav li .static-transparent {
     padding: 0px;
     left: 0px;
-    width: 50%;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px solid #f2f2f2;
+    
   }
   .menu li {
-    border-bottom: 3px solid #0065fc;
+    display: flex;
+    width: 100%;
+    
   }
   .inscription {
     display: flex;
     position: relative;
-    bottom: 123px;
+    bottom: 77px;
     justify-content: flex-end;
-    width: 90%;
     padding: 0px;
     border-top: none;
+    padding-right: 16px;
   }
   section {
     display: flex;
@@ -618,6 +628,9 @@ nav li .static-transparent:hover {
   .barre-de-recherche {
     padding: 0%;
   }
+  #search{
+    width: 100%;
+  }
   .txt-top {
     margin: 0%;
     overflow: hidden;
@@ -625,6 +638,9 @@ nav li .static-transparent:hover {
   }
   .txt-top p {
     margin-top: 8px;
+  }
+  .txt-top h1{
+    margin-top: 0%;
   }
   .info {
     padding: 0%;
@@ -637,7 +653,10 @@ nav li .static-transparent:hover {
   input#bouton-recherche {
     display: none;
   }
-  
+  .loupe i::before{
+    font-size: 15px;
+   
+  }
   .loupe {
     display: flex;
     background-color: #0065fc;
@@ -656,14 +675,13 @@ nav li .static-transparent:hover {
     
     
   }
-  .loupe i {
-    font-weight: bolder;
-    font-size: 19px;
-  }
+
   .filtre {
-    align-items: flex-end;
+    align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
   }
+
   .border {
     margin: 7px;
   }
@@ -692,7 +710,7 @@ nav li .static-transparent:hover {
   }
   .carte-hebergement img {
     width: 100%;
-    height: 7em;
+    height: 8em;
   }
   .populaire {
     width: 100%;
@@ -702,7 +720,9 @@ nav li .static-transparent:hover {
     padding: 0px;
   }
   .populaire .titre-populaire {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .block-carte {
     align-items: center;
