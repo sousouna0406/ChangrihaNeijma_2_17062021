@@ -3,9 +3,13 @@
 /* cdn google pour recuperer les fonts*/
 body {
   font-family: "Raleway", sans-serif;
-  margin: auto;
+margin: auto;
   max-width: 1024px;
 }
+* {
+  scroll-behavior: smooth;
+}
+
 /* Footer*/
 
 footer {
@@ -361,6 +365,7 @@ span {
 }
 /* HEADER */
 .entete {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -681,6 +686,7 @@ nav li .static-transparent:hover {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
+   
   }
 
   .border {
@@ -784,6 +790,7 @@ nav li .static-transparent:hover {
 @media screen and (min-width: 481px) and (max-width: 980px) {
   body {
     width: 100%;
+    
   }
   .entete {
     display: block;
@@ -1024,6 +1031,6 @@ nav li .static-transparent:hover {
   }
 
   footer {
-    width: 100%;
+    width: 95%;
   }
 }
