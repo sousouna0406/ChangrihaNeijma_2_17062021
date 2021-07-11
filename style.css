@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 /* cdn google pour recuperer les fonts*/
 body {
@@ -738,6 +739,9 @@ nav li .static-transparent:hover {
     justify-content: center;
     padding: 0%;
   }
+  .activitesblock{
+    width: 100%;
+  }
   #activites h2 {
     font-size: 18px;
   }
@@ -847,7 +851,14 @@ nav li .static-transparent:hover {
     padding: 0%;
   }
   #search {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
   }
   .txt-top {
     margin: 0%;
@@ -869,26 +880,20 @@ nav li .static-transparent:hover {
     overflow: hidden;
   }
   input#bouton-recherche {
-    display: none;
-  }
-  .loupe i::before {
-    font-size: 15px;
-  }
-  .loupe {
-    display: flex;
     background-color: #0065fc;
-    color: white;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    font-size: 17px;
-    width: 50px;
-    height: 45px;
-    cursor: pointer;
-    border: unset;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 17px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border: unset;
+  }
+
+  .loupe {
+    display: none;
+
   }
 
   .filtre {
@@ -924,6 +929,7 @@ nav li .static-transparent:hover {
   .carte-hebergement img {
     width: 100%;
     height: 8em;
+ 
   }
   .populaire {
     width: 95%;
@@ -939,39 +945,45 @@ nav li .static-transparent:hover {
   }
   .block-carte {
     align-items: center;
+    flex-direction: column;
   }
   .carte-populaire {
-    width: 70%;
-   
+   width: 80% ;
+   flex-direction: row;
     display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   .carte-populaire img{
-    width: 10em;
-    height: 10em;
+    width: 100%;
+    height: 12em;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0%;
     
   }
   .all{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+   
     
   }
   .texte{
 
-    width: 50%;
-    align-items: flex-start;
-  
+    width: 100%;
+    align-items: center;
+ 
   }
-  .texte strong{
-    font-size: 1.2em;
-    align-items: flex-end;
-   
-  }
+.texte strong{
+  font-size: 1.6em;
+}
   .texte p{
-    font-size: 1em;
+    font-size: 1.4em;
     flex-wrap: wrap;
     
   }
   .texte .etoiles{
-    font-size: 1.1em;
+    font-size: 1em;
   }
   #activite {
     width: 100%;
