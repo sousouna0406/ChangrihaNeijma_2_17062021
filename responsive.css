@@ -1,9 +1,9 @@
 /********** MEDIA QUERIES DESKTOP ***********/
-@media screen and (min-width: 980px) {
-    body {
-      width: 100%;
-    }
+@media screen and (max-width: 1280px) {
+  body {
+    width: 100%;
   }
+}
   /********** MEDIA QUERIES TELEPHONE ***********/
   @media screen and (max-width: 480px) {
     body {
