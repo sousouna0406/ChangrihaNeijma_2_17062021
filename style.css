@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 /* cdn google pour recuperer les fonts*/
 body {
@@ -142,19 +143,19 @@ a:hover {
 
 .activite-grande:hover {
   filter: brightness(1.3);
-  z-index: 2;
+
   box-shadow: 1px 1px 12px #0065fc79;
   transform: scale(1.05);
 }
 .activite-moyenne:hover {
   filter: brightness(1.3);
-  z-index: 1;
+
   box-shadow: 1px 1px 12px #0065fc79;
   transform: scale(1.05);
 }
 .activite-petite:hover {
   filter: brightness(1.3);
-  z-index: 1;
+
   box-shadow: 1px 1px 12px #0065fc79;
   transform: scale(1.05);
 }
@@ -244,6 +245,7 @@ span {
   padding-left: 4px;
   font-size: 12px;
   margin: 3px;
+  flex-wrap: wrap;
 }
 .carte-hebergement img {
   width: 180px;
@@ -268,7 +270,6 @@ span {
   color: black;
 }
 .carte-hebergement:hover {
-  z-index: 1;
   box-shadow: 1px 1px 12px #0065fc79;
   transform: scale(1.05);
   filter: brightness(1.2);
@@ -321,6 +322,7 @@ span {
   margin-top: 4px;
   padding-left: 10px;
   font-size: 11px;
+  flex-wrap: wrap;
 }
 .texte {
   display: flex;
@@ -358,7 +360,6 @@ span {
   color: black;
 }
 .carte-populaire:hover {
-  z-index: 1;
   box-shadow: 1px 1px 12px #0065fc79;
   transform: scale(1.05);
   filter: brightness(1.2);
@@ -369,6 +370,10 @@ span {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.856);
+
 }
 .logo {
   display: flex;
