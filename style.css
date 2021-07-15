@@ -369,9 +369,7 @@ span {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0px;
-  background: rgba(255, 255, 255, 0.856);
+ 
 }
 .logo {
   display: flex;

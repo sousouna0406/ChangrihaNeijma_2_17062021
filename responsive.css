@@ -124,7 +124,10 @@
   .filtre {
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+  }
+  .filtre strong{
+    width: 100%;
   }
 
   .border {
