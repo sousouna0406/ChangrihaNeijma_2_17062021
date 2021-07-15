@@ -168,8 +168,8 @@
   }
   .populaire .titre-populaire {
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .block-carte {
     align-items: center;
